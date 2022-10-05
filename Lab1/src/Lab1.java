@@ -31,7 +31,7 @@ public class Lab1 {
                 }
                 else if(d[i]==9||d[i]==11||d[i]==12||d[i]==13||d[i]==14||d[i]==15){
                     constant = 3/(Math.log(Math.abs(x[j])));
-                    b[i][j] = Math.pow(Math.pow(constant,Math.pow((x[j]/2),3)),(1/3.));
+                    b[i][j] = Math.pow(Math.pow(constant,Math.pow((x[j]/2.),3)),(1/3.));
                 }
                 else{
                     constant = Math.cos(Math.tan(Math.tan(x[j])));
