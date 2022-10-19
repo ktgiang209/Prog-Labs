@@ -5,9 +5,10 @@ class Battleground {
     public static void main(String args[]) {
         Battle b = new Battle();
 
-        Cinccino p1 = new Cinccino ("ally", 1);
-        Darkrai p2 = new Darkrai ("ally", 1);
-        Minccino p3= new Minccino ("ally", 1);
+        Minccino p1= new Minccino ("ally", 1);
+        Cinccino p2 = new Cinccino ("ally", 1);
+        Darkrai p3 = new Darkrai ("ally", 1);
+
         Porygon p4= new Porygon ("foe", 1);
         Porygon2 p5= new Porygon2 ("foe", 1);
         PorygonZ p6 = new PorygonZ ("foe", 1);
